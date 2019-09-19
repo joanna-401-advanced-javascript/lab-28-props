@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import App from '../app.js';
+import App from './../App';
 
 describe('<App />', () => {
   it('nothing from this page is rendered at application start', () => {
