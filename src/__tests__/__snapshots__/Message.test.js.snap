@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Message /> snapshot is rendered correctly 1`] = `
+<div>
+  <p>
+    Hello World!
+  </p>
+  <p />
+  <div>
+    <p>
+      Author: 
+      Margaret Atwood
+    </p>
+    <p>
+      Title: 
+      Oryx and Crake
+    </p>
+  </div>
+</div>
+`;

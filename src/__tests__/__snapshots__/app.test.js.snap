@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> snapshot is rendered correctly 1`] = `
+<div>
+  <p>
+    Hello World!
+  </p>
+  <p>
+    Breaking news!
+  </p>
+  <div>
+    <p>
+      Author: 
+      Margaret Atwood
+    </p>
+    <p>
+      Title: 
+      Oryx and Crake
+    </p>
+  </div>
+</div>
+`;

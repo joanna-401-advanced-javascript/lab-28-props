@@ -1,10 +1,27 @@
 import React from 'react';
-// import renderer from 'react-test-renderer';
-import App from '../app';
+import renderer from 'react-test-renderer';
+import App from './../App';
 
 describe('<App />', () => {
-  it('is rendered at application start', () => {
+  it('nothing from this page is rendered at application start', () => {
     const app = shallow(<App />);
-    expect(app.find('h1').exists()).toBe(true);
+    expect(app.find('div').exists()).toBe(false);
+  });
+
+  it('state contains headline', () => {
+    const app = mount(<App />);
+    expect(app.state('headline')).toEqual('Breaking news!');
+  });
+
+  it('state does not include anything from child components', () => {
+    const app = mount(<App />);
+    expect(app.state('text')).toEqual(undefined);
+  });
+
+  it('snapshot is rendered correctly', () => {
+    const app = renderer
+      .create(<App />)
+      .toJSON();
+    expect(app).toMatchSnapshot();
   });
 });
