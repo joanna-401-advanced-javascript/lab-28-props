@@ -12,8 +12,8 @@ export default class extends React.Component {
   render(){
     return (
       <div>
-        <p>{this.state.author}</p>
-        <p>{this.state.title}</p>
+        <p>Author: {this.state.author}</p>
+        <p>Title: {this.state.title}</p>
       </div>
     )
   }
