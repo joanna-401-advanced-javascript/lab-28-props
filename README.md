@@ -6,7 +6,7 @@
 
 ### Links and Resources
 * [submission PR](https://github.com/joanna-401-advanced-javascript/lab-28-props/pull/1)
-* [travis](hhttps://travis-ci.com/joanna-401-advanced-javascript/lab-28-props)
+* [travis](https://travis-ci.com/joanna-401-advanced-javascript/lab-28-props)
 
 #### Documentation
 * [styleguide](http://localhost:6060/)
